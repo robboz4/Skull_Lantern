@@ -1,3 +1,11 @@
+# Preview
+
+https://github.com/user-attachments/assets/d7fd0197-6a0e-488b-8f61-690d965cfba7
+
+
+
+https://github.com/user-attachments/assets/7a99576f-6027-4987-b913-dd5b10a8c447
+
 
 
 
@@ -6,8 +14,7 @@
 
 A DIY Pepper's Ghost Halloween lantern: a glowing skull that floats, sways and nods inside a tube. A Raspberry Pi drives a small TFT screen in the base, and an angled acrylic reflector inside the tube bounces the image up so the skull appears to hover in mid-air.
 
-**Preview:** 
-https://github.com/user-attachments/assets/da02a5a5-4c83-4a9b-a45c-9c5cbc5c6e84
+
 
 ## How it works
 
