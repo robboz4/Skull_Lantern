@@ -129,3 +129,6 @@ The two files differ only in which way the 320x480 portrait render was rotated t
 - Skull model (`models/skull.stl`): https://www.thingiverse.com/thing:443779 licensed under the Creative Commons - Attribution - Share Alike license.
 - Skull pick holderRemixed:  https://www.thingiverse.com/thing:4645648 licensed under the Creative Commons - Attribution license.)
 
+## License
+
+The code and project files in this repository are released under the [MIT License](LICENSE). The skull model (`models/skull.stl`) is not covered by this license and remains under its original license (see Credits).
