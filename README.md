@@ -113,4 +113,6 @@ The two files differ only in which way the 320x480 portrait render was rotated t
 
 ## Credits
 
-- Skull model (`models/skull.stl`): **TODO: add the source and licence.**
+- Skull model (`models/skull.stl`): https://www.thingiverse.com/thing:443779 licensed under the Creative Commons - Attribution - Share Alike license.
+- Skull pick holderRemixed:  https://www.thingiverse.com/thing:4645648 licensed under the Creative Commons - Attribution license.)
+
