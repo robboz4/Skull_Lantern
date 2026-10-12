@@ -33,7 +33,7 @@ cp "$SRC/$RAW" "$DEST/skull.raw"
 cat > "$DEST/run.sh" <<'EOF'
 #!/bin/sh
 i=0
-while [ ! -e /dev/fb1 ] && [ "$i" -lt 60 ]; do
+while [ ! -e /dev/fb1 ] && [ "$i" -lt 180 ]; do
   sleep 1
   i=$((i + 1))
 done
@@ -44,7 +44,6 @@ chmod 755 "$DEST/run.sh"
 cat > /etc/systemd/system/skull-lantern.service <<EOF
 [Unit]
 Description=Pepper's Ghost skull animation
-After=multi-user.target
 
 [Service]
 Type=simple

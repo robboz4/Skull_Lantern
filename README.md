@@ -127,6 +127,7 @@ The two files differ only in which way the 320x480 portrait render was rotated t
 - **Skull is sideways or upside-down**: use the other `.raw` file.
 - **Colours look wrong (blue tint instead of warm bone)**: red and blue are swapped on your display, so regenerate the frames with `convert_frames.py --swap-rb`.
 - **Playback is choppy**: lower the frame rate argument (for example `10`).
+- **Slow to start after power-on**: an original single-core Pi A+ with 256 MB of RAM is busy for several minutes while it boots. In testing, the skull appeared roughly 1.5 to 2 minutes after power-on, and SSH took several minutes longer to come back. Booting to the console instead of the desktop (`sudo systemctl set-default multi-user.target`) avoids loading a login screen, and `systemd-analyze blame` shows what is slowest.
 - **Boot text or a blinking cursor shows on the TFT**: the console is mapped to the same framebuffer as the animation.
 
 ## Credits
